@@ -1,0 +1,12 @@
+.addProducts-button {
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 30px;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: center;
+}

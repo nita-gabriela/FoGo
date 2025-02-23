@@ -1,0 +1,162 @@
+.user-menu {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.restaurant-name {
+  color: #800020;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.restaurant-description {
+  color: #800020;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.menu-item-details {
+  flex: 2;
+  text-align: left;
+  margin-left: 20px;
+  padding-right: 20px;
+}
+
+.dish-name {
+  color: #800020;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.dish-description {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.menu-item-controls {
+  flex: 1;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dish-price {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.menu-item-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-button {
+  width: 40px;
+  height: 40px;
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.quantity-button:hover {
+  background-color: #800020;
+}
+
+.quantity-input {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.add-to-cart {
+  background-color: #ffa500;
+  color: #fff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  width: calc(40px + 60px + 40px + 20px);
+}
+
+.add-to-cart:hover {
+  background-color: #800020;
+}
+
+.go-to-cart {
+  background-color: #800020;
+  color: #fff;
+  padding: 20px 35px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.go-to-cart:hover {
+  background-color: #ffa500;
+}
+
+.unavailable {
+  background-color: #e0e0e0;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.unavailable .quantity-button,
+.unavailable .add-to-cart {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.unavailable .quantity-input {
+  background-color: #f0f0f0;
+}

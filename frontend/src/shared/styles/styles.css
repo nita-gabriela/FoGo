@@ -1,0 +1,16 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.background{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/024/569/565/large_2x/food-ingredients-for-italian-pasta-illustration-ai-generative-free-photo.jpg");
+
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
